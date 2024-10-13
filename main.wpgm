@@ -1,0 +1,8 @@
+import wollok.game.*
+import intro.*
+
+//---------------------------- PLAP GAMES ----------------------------------
+program plapGames {
+	primeraPantalla.inicio()
+	game.start()
+}
