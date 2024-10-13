@@ -144,3 +144,9 @@ object mensajeSW {
 		
 	}
 }
+
+object vidaRick {
+  var property position = game.at(10,11) 
+  method text() = "PH: " + rick.vida().toString()
+  method textColor() = paleta.verde()
+}

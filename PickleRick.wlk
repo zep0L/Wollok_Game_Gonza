@@ -13,7 +13,7 @@ object rick {
 
   const property objetos = [] // Lista de objetos agarrados
 
-  var property vida = 100 // vida inicial de rick
+  var property vida = 20 // vida inicial de rick
   
   method poder() {
     
@@ -23,8 +23,8 @@ object rick {
         if (self.vida()==0) {game.removeVisual(self)}
     }// si la vida llega a 0  GAME OVER
 
-  method vidaRestar(x) {
-    self.vida()-x.poder()
+  method vidaRestar() {
+    self.vida()-5
     }//Se le resta a la vida el poder del personaje que lo ataque
 
     //agregar transicion de colores en vida y barra pero en config

@@ -12,7 +12,7 @@ class Mapas {
   var imagen
   method image () = imagen
   method position() = game.origin()
-
+  
   method transicion () {
     transicion.titila()
   }

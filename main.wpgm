@@ -5,4 +5,4 @@ import intro.*
 program plapGames {
 	primeraPantalla.inicio()
 	game.start()
-}
+}			
